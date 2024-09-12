@@ -3,7 +3,7 @@ ocr_import_info:
   bdrc_scan_id: W4PD2021
   source: bdrc
   ocr_info:
-    timestamp: '2022-08-25T00:00:00Z'
+    timestamp: '2023-02-01T00:00:00Z'
   batch_id: batch-0001
   software_id: norbuketaka
   expected_default_language: bo
@@ -11,8 +11,8 @@ ocr_import_info:
 default_language: bo
 source: https://library.bdrc.io
 initial_creation_type: ocr
-imported: 2023-01-21 16:34:53.617885
-last_modified: 2022-08-25 00:00:00+00:00
+imported: 2024-09-12 14:18:53.264909
+last_modified: 2023-02-01 00:00:00+00:00
 parser: https://github.com/OpenPecha/Norbu-Keta-eText-import/blob/main/norbu_ketaka_parser.py
 source_metadata:
   id: http://purl.bdrc.io/resource/W4PD2021
@@ -25,22 +25,6 @@ source_metadata:
   - bo
   author: འཕྲེང་པོ་གཏེར་སྟོན་ཤེས་རབ་འོད་ཟེར།
 bases:
-  I4PD2028:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I4PD2028
-      total_pages: 586
-      volume_number: 6
-      volume_pages_bdrc_intro: 2
-    base_file: I4PD2028.txt
-    order: 1
-  I4PD2029:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I4PD2029
-      total_pages: 718
-      volume_number: 7
-      volume_pages_bdrc_intro: 2
-    base_file: I4PD2029.txt
-    order: 2
   I4PD2023:
     source_metadata:
       id: http://purl.bdrc.io/resource/I4PD2023
@@ -48,31 +32,7 @@ bases:
       volume_number: 1
       volume_pages_bdrc_intro: 2
     base_file: I4PD2023.txt
-    order: 3
-  I4PD2027:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I4PD2027
-      total_pages: 762
-      volume_number: 5
-      volume_pages_bdrc_intro: 2
-    base_file: I4PD2027.txt
-    order: 4
-  I4PD2026:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I4PD2026
-      total_pages: 694
-      volume_number: 4
-      volume_pages_bdrc_intro: 2
-    base_file: I4PD2026.txt
-    order: 5
-  I4PD2030:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I4PD2030
-      total_pages: 698
-      volume_number: 8
-      volume_pages_bdrc_intro: 2
-    base_file: I4PD2030.txt
-    order: 6
+    order: 1
   I4PD2024:
     source_metadata:
       id: http://purl.bdrc.io/resource/I4PD2024
@@ -80,7 +40,7 @@ bases:
       volume_number: 2
       volume_pages_bdrc_intro: 2
     base_file: I4PD2024.txt
-    order: 7
+    order: 2
   I4PD2025:
     source_metadata:
       id: http://purl.bdrc.io/resource/I4PD2025
@@ -88,6 +48,46 @@ bases:
       volume_number: 3
       volume_pages_bdrc_intro: 2
     base_file: I4PD2025.txt
+    order: 3
+  I4PD2026:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4PD2026
+      total_pages: 694
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    base_file: I4PD2026.txt
+    order: 4
+  I4PD2027:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4PD2027
+      total_pages: 762
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    base_file: I4PD2027.txt
+    order: 5
+  I4PD2028:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4PD2028
+      total_pages: 586
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    base_file: I4PD2028.txt
+    order: 6
+  I4PD2029:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4PD2029
+      total_pages: 718
+      volume_number: 7
+      volume_pages_bdrc_intro: 2
+    base_file: I4PD2029.txt
+    order: 7
+  I4PD2030:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4PD2030
+      total_pages: 698
+      volume_number: 8
+      volume_pages_bdrc_intro: 2
+    base_file: I4PD2030.txt
     order: 8
 copyright:
   status: Public domain
